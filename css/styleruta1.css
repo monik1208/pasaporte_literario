@@ -1,0 +1,73 @@
+body{
+    background-image: url('../img/fondo4.webp');
+    background-size: cover; /* Ajusta la imagen para cubrir todo el fondo */
+    background-repeat: no-repeat; /* Evita que la imagen se repita */
+    background-position: center center; /* Centra la imagen en la página */
+   
+
+}
+
+.principal3{
+    height: 380px;
+    max-width: 100%;    
+    position: relative;
+
+}
+
+
+.card-img-top{
+
+    height: 200%;
+    position: relative;
+    overflow: visible;
+    object-fit: cover;
+    mix-blend-mode: multiply;
+}
+
+.estaciones{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: #f3f1f1; 
+    display: inline-block;
+    font-size: 15px;
+    text-align: center; /***** center *****/  /***** End center *****/
+    
+}
+
+.btn{
+    width: 80%;
+    display: inline-block;
+    font-size: 15px;
+    text-align: center; /***** center *****/  /***** End center *****/
+    opacity: 0.8;
+    margin-top: 10%;
+}
+
+.card{
+
+    top: 10%;
+    left: 60%;
+    right: 80%;
+    position: relative;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: #f8f3f3; 
+}
+
+.overlay{
+    padding: 20%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 15px;
+    color: #be1d1d; 
+    position: relative;
+    z-index: 1;
+}
+
+.show, .toast{
+    position: absolute;
+    width: 100%;
+    height: 20%;
+    left: 36%;
+    top: 80%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: #181818; 
+
+}
