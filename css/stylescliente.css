@@ -17,7 +17,7 @@ body{
 
 .card-img-top{
     height: 200px;
-    padding: 5%;
+    padding: 2%;
 }
 
 
@@ -29,14 +29,4 @@ body{
 
 .btn{
     background-color: chocolates;
-}
-footer{
-    height: 86px;
-    max-width: 100%;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-size: 30px;
-    color: #faf3ee;
-    text-align: center;
-    position: relative;
-    z-index: 1;
 }

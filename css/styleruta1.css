@@ -1,4 +1,6 @@
 body{
+    max-width: 100%;
+    height: auto;
     background-image: url('../img/fondo4.webp');
     background-size: cover; /* Ajusta la imagen para cubrir todo el fondo */
     background-repeat: no-repeat; /* Evita que la imagen se repita */
