@@ -1,4 +1,6 @@
 body{
+    max-width: 100%;
+    height: auto;
     background-image: url('../img/fondo2.png');
     background-size: cover; /* Ajusta la imagen para cubrir todo el fondo */
     background-repeat: no-repeat; /* Evita que la imagen se repita */
@@ -27,4 +29,14 @@ body{
 
 .btn{
     background-color: chocolates;
+}
+footer{
+    height: 86px;
+    max-width: 100%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 30px;
+    color: #faf3ee;
+    text-align: center;
+    position: relative;
+    z-index: 1;
 }
