@@ -14,17 +14,11 @@ body{
 
 }
 
-
-.card-img-top{
-
-    height: 200%;
-    position: relative;
-    overflow: visible;
-    object-fit: cover;
-    mix-blend-mode: multiply;
-}
-
 .estaciones{
+    max-width: 100%;
+    height: 200%;
+    object-fit: fill; 
+    padding: 20px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     color: #f3f1f1; 
     display: inline-block;
@@ -33,6 +27,17 @@ body{
     
 }
 
+.card-img-top{
+    width: 80%;
+    height: 180%;
+    top: auto;
+    overflow: visible;
+    object-fit: cover;
+    mix-blend-mode: multiply;
+
+}
+
+
 .btn{
     width: 80%;
     display: inline-block;
@@ -40,25 +45,26 @@ body{
     text-align: center; /***** center *****/  /***** End center *****/
     opacity: 0.8;
     margin-top: 10%;
+    position: relative;
 }
 
 .card{
-
     top: 10%;
     left: 60%;
     right: 80%;
-    position: relative;
+    position: absolute;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    color: #f8f3f3; 
+    color: #eee2e2; 
 }
 
 .overlay{
     padding: 20%;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 15px;
-    color: #be1d1d; 
+    color: #faf3f3; 
     position: relative;
     z-index: 1;
+    object-fit: cover; 
 }
 
 .show, .toast{
@@ -66,7 +72,7 @@ body{
     width: 100%;
     height: 20%;
     left: 36%;
-    top: 80%;
+    top: 90%;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     color: #181818; 
 
