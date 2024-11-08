@@ -1,4 +1,4 @@
-body .container-fluid{
+body{
     max-width: 100%;
     height: auto;
 }
@@ -61,12 +61,10 @@ body .container-fluid{
 }
 
 .nav-item, a {
-    max-width: 100%;
-    position: relative;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 20px;
     color: black;
-    margin-left: 50px;
+
 
 }
 
@@ -83,6 +81,13 @@ body .container-fluid{
     color: inherit;
 }
 
+.inicio{
+    width: 50px;
+    height: 40px;
+    margin-inline-end: 0px;
+    padding-bottom: 8px;
+
+}
 
 .principal1{
     height: 300px;
@@ -90,14 +95,14 @@ body .container-fluid{
 }
 
 .carousel{
-    max-width: 80%;
-    height: 300px;
     margin-top: 20px;
-    margin-left: 100px;
-    border-style:dashed;
-    position: relative;
-    border-color:  #111010;
+    margin-left: 50px;
+    margin-right: 50px;
+}
 
+.w-100{
+    max-width: 100%;
+    height: 300px;
 }
 
 .tema{
